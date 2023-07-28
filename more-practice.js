@@ -35,6 +35,28 @@ var onionPrice = 50;
  var remainder = price1 % price2;
  console.log("remainder will be: " + remainder );
 
+ // convert
+
+ var num1 = "34";
+ console.log(parseInt(num1));
+
+ var num2 = "34.444";
+ console.log(parseInt(num2));
+ console.log(parseFloat(num2));
+
+ var num3 = 55;
+ num3 = toString(num3)
+ console.log(num3);
+
+ var number4 = 2.333333333;
+ var num4 = number4.toFixed(3);
+ console.log(num4);
+ 
+ var num6 = number4.toPrecision(2);
+ console.log(num6);
+ 
+ // 
+
 
 
 
