@@ -35,7 +35,7 @@ var onionPrice = 50;
  var remainder = price1 % price2;
  console.log("remainder will be: " + remainder );
 
- // convert
+ // convert integer float 
 
  var num1 = "34";
  console.log(parseInt(num1));
@@ -58,7 +58,22 @@ var onionPrice = 50;
  var num6 = number4.toPrecision(2);
  console.log(num6);
  
- // 
+ // convert tempareture
+ //fahrenheit  to  celscius
+
+ var farn = 39;
+ var cels =(farn-32)* (5/9);
+ console.log("celsius :" + cels);
+
+ //celscius to fahrenheit
+
+ var cels = 20;
+ var fahrn = (cels * (9/5)) + 32;
+ console.log(fahrn);
+
+ 
+ 
+
 
 
 
