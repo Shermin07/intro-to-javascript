@@ -39,14 +39,17 @@ var onionPrice = 50;
 
  var num1 = "34";
  console.log(parseInt(num1));
+ var num = num1.length;
+ console.log(num);
 
  var num2 = "34.444";
  console.log(parseInt(num2));
  console.log(parseFloat(num2));
 
  var num3 = 55;
- num3 = toString(num3)
+ num3 =  toString(num3);
  console.log(num3);
+ 
 
  var number4 = 2.333333333;
  var num4 = number4.toFixed(3);

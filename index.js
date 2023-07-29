@@ -1,6 +1,9 @@
 // practice problem:1//
 var givenMoney = 1000;
-var totalCost = 700;
+var orange = 400;
+var apple = 300;
+var totalCost = orange + apple;
+console.log(totalCost);
 var shopKeeperWillReturn = givenMoney - totalCost;
 console.log(shopKeeperWillReturn);
 
@@ -30,4 +33,6 @@ var givenNumber = 119;
 var dividisionNumber = 5;
 var remainder = givenNumber % dividisionNumber;
 console.log(remainder);
+
+
 
