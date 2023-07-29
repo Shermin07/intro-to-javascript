@@ -96,6 +96,16 @@ price = 4000;
 var newPrice = price + 2000;
 console.log(newPrice);
 
+//9.
+var number = 34.555555;
+var num = number.toFixed(3);
+console.log(num);
+
+//10.
+var number = 45.5555;
+var num1 = number.toPrecision(4);
+console.log(num1);
+
 
 
 
