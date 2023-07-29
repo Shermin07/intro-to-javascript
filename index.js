@@ -54,7 +54,8 @@ var students = 20;
 
 var eachStudent = money / students;
 console.log(eachStudent);
-
+var remainder = money % students;
+console.log(remainder);
 //3.
 var baby = 30;
 var candyquantity = 10;
