@@ -150,3 +150,27 @@ if(side1 == side2 || side2 == side3 || side1 == side3  ){
 else{
     console.log("this is not isoscles")
 }
+// triangle Equilateral 
+var side1 = 9;
+var side2 = 8;
+var side3 = 9;
+
+if(side1 == side2 && side2 == side3 && side1 == side3  ){
+    console.log("this triangle will be Equilateral  ")
+
+}
+else{
+    console.log("this is not Equilateral ")
+}
+// triangle Scalene 
+var side1 = 9;
+var side2 = 8;
+var side3 = 10;
+
+if(side1 != side2 && side2 != side3 && side1 != side3  ){
+    console.log("this triangle will be Scalene ")
+
+}
+else{
+    console.log("this is not Scalene ")
+}
