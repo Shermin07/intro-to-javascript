@@ -89,3 +89,29 @@ while(num <= 86){
     }
 }
 
+// continue..... means skip
+
+var bookPrices = [30, 40, 50, 60, 122, 133, 324, 243, 554, 22, 543, 324, 435];
+
+var i = 0;
+while(i < bookPrices.length){
+    var price = bookPrices[i];
+   
+
+    if( bookPrices[i]  > 200){
+        continue;
+    }
+    
+   
+    console.log(price);
+    i++;
+}
+
+// for:
+
+for (var i = 0; i < bookPrices.length; i++){
+    var price = bookPrices[i];
+    console.log(price);
+    if(bookPrices[i] > 200)
+    continue;
+}
