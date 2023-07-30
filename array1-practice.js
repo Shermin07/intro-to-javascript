@@ -115,4 +115,38 @@ else  {
 }
 
 
+// other way:
 
+
+
+
+// problem 3:
+// largest number
+
+var number1 = 13;
+var number2 = 79;
+var number3 = 45;
+
+if(number1 > number2 && number1 >number3){
+    console.log("number1 will be the largest numbe")
+}
+else if(number2 > number1 && number2 >number3){
+    console.log("number2 will be the largest numbe")
+}
+else{
+   console.log("number3 wii be the largest number") 
+}
+
+
+// triangle isosceles
+var side1 = 9;
+var side2 = 8;
+var side3 = 9;
+
+if(side1 == side2 || side2 == side3 || side1 == side3  ){
+    console.log("this triangle will be isosceles")
+
+}
+else{
+    console.log("this is not isoscles")
+}
