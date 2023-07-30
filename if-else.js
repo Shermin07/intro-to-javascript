@@ -1,4 +1,4 @@
-// from contact mentor website  
+// from contact mentor website  more page-- codesdope,freecodecamp
   
   var myMarks = 91;
 
@@ -92,3 +92,26 @@ else if (johnMarks >= 40 && johnMarks <= 50){
 else {
     console.log("john will received F grade");
 }
+
+
+
+// if-else:
+
+var myMoney = 90000;
+
+if(myMoney >= 80000){
+    console.log("i will buy iphone")
+}
+else if(myMoney >= 60000){
+    console.log("i will buy gaming laptop")
+}
+else if(myMoney >= 40000){
+    console.log("i will buy lenovo yoga")
+}
+else if(myMoney >= 20000){
+    console.log("i will buy laptop")
+}
+else{
+    console.log("i will buy mobile phone")
+}
+
