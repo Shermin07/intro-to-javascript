@@ -98,20 +98,21 @@ while(i < bookPrices.length){
     var price = bookPrices[i];
    
 
-    if( bookPrices[i]  > 200){
+    if( price  > 200){
         continue;
     }
     
-   
-    console.log(price);
     i++;
+    console.log(price);
+    
 }
 
 // for:
 
 for (var i = 0; i < bookPrices.length; i++){
     var price = bookPrices[i];
-    console.log(price);
-    if(bookPrices[i] > 200)
+    
+    if(price > 200)
     continue;
+   console.log(price);
 }
