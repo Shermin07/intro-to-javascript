@@ -103,6 +103,15 @@ console.log(newNum);
 var number = 23.333333333;
 var newNumber = number.toFixed(3);
 console.log(newNumber);
+// toPrecision:
+var number = 23.333333333;
+var newNumber = number.toPrecision(3);
+console.log(newNumber);
+
+// typeof:
+var newNumber = typeof(number);
+console.log(newNumber);
+
 
 
 
