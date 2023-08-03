@@ -14,24 +14,24 @@ console.log(givenNumber2);
 
 // get sum of oddnumbers:
 
-function findOddSum(array){
-    var oddNumbers = []; 
-    for(let i = 0; i < array.length; i++){
+function findOddNumbers (array){
+      var oddNumbers = []; 
+    for( let i = 0; i < array.length; i++){
         const element = array[i];
-        if (element % 2 !== 0){
-            
-            oddNumbers.push(element)
-        };
+        if(element % 2 !== 0){
+          oddNumbers.push(element);
+        }
     }
-    var sum = 0;
-for(let i = 0; i < oddNumbers.lengh; i++){
-    sum = sum + oddNumbers[i];
+       var sum = 0;
+    for( i = 0; i < oddNumbers.length; i++){
+        sum = sum + oddNumbers[i];
+    }
+    return sum;
 }
-return sum;
-}
-const givenArray = [5, 7, 8, 10, 45, 20, 15, 29];
-const OddNumbers = findOddSum(givenArray);
-console.log(OddNumbers);
+
+var givenArray = [10, 12, 11, 21, 23, 22, 24, 26, 29];
+var oddNumbers = findOddNumbers(givenArray);
+console.log(oddNumbers);
 
 
 
