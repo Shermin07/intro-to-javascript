@@ -1,7 +1,7 @@
 function findOddSum(array){
     var oddNumbers = []; 
     for(let i = 0; i < array.length; i++){
-        const element = array[i];
+        let element = array[i];
         if (element % 2 !== 0){
             
             oddNumbers.push(element)
