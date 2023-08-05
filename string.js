@@ -79,3 +79,42 @@ console.log(wordSeparation);
 const lineBreak = lyrics1.split(".");
 console.log(lineBreak) ;
 
+// latter alada korte chaile:
+
+const wordSeparate = lyrics1.split("");
+console.log(wordSeparate);
+
+//slice:
+// pizza r moto slice kore nite:: start index, koto porjonto nibo tar ag porjonto asbe ans
+
+const portion = lyrics1.slice(8,17);
+console.log(portion);
+
+//substring:
+const portion1 = lyrics1.substring(3, 10);
+console.log(portion1);
+
+// trim:
+const line5 = " Hello World hi";
+const output1 = line5.trim();
+console.log(output1);
+
+// trimStart:
+const line6 = " Hello World ";
+const output2 = line6.trimStart();
+console.log(output2);
+
+// trimEnd: same as trimStrat
+
+//concat:
+
+const firstLine = "i am a girl"
+const secondLine = "i am jobless"
+
+const fullLine = firstLine.concat(" ", secondLine);
+console.log(fullLine);
+
+// join:
+const lines = ["i am a girl", "i want to do something", "i am jobless now"];
+const fullLine2 = lines.join(".")
+console.log(fullLine2);
