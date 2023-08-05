@@ -118,3 +118,5 @@ console.log(fullLine);
 const lines = ["i am a girl", "i want to do something", "i am jobless now"];
 const fullLine2 = lines.join(".")
 console.log(fullLine2);
+
+//
