@@ -42,6 +42,7 @@ console.log(total);
 
 const namesN = ["alia", "shumi", "rimu", "shermin", "dalia", "noorjaha"];
 function bestFriend(names){
+
       let largest = names[0];
     for(let i = 0; i < names.length; i++){
         const name = names[i];
@@ -53,3 +54,24 @@ function bestFriend(names){
 }
 const largestName = bestFriend(namesN);
 console.log(largestName);
+
+// print only positive:
+const array = [10, 20, 30, 40, 50, 60, -65, -34, -23, 44, -55, 20, -100];
+
+function onlyPositive(arr){
+  let  positiveNumbers = [];
+    for(let i = 0; i < arr.length; i++){
+        const newarr = arr[i];
+        if(newarr  > 0){
+            positiveNumbers.push(newarr);
+           
+        }
+        else{
+            break;
+        }
+    }
+    return positiveNumbers ;
+
+}
+const positiveNumbers = onlyPositive(array);
+console.log(positiveNumbers);
