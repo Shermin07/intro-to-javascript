@@ -41,6 +41,7 @@ console.log(total);
 // bestFriend......largest name ber korte hobe
 
 const namesN = ["alia", "shumi", "rimu", "shermin", "dalia", "noorjaha"];
+
 function bestFriend(names){
 
       let largest = names[0];
