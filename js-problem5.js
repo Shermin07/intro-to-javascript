@@ -136,3 +136,57 @@ function gemsToDiamond(num1, num2, num3){
 }
 const result6 = gemsToDiamond(1, 1, 1);
 console.log(result6);
+
+// problem 7:::
+
+const namesArr = ["shermin", "juma", "bulbuli", "dalia", "ranu", "sultana", "moonnikhatun"];
+
+function bestFriend(x){
+    if(!Array.isArray){
+        return "please provide me a array"
+    }
+    else{
+         let largest = x[0];
+        for( let i = 0; i < x.length; i++){
+            const name = x[i];
+            if(name.length > largest.length){
+                largest = name;
+
+            }
+        }
+        return largest;
+    }
+    
+
+}
+const result7 = bestFriend(namesArr);
+console.log(result7);
+
+
+//problem8:::
+
+function onlyPositive(numbers){
+    if( !Array.isArray ){
+        return "please provide a number"
+    }
+    else{
+       
+        let positiveNum = [];
+        for(let i = 0; i<numbers.length; i++){
+            const num = numbers[i];
+            if(num < 0){
+                break;
+            }
+            else{
+
+                positiveNum.push(num);
+            }
+        }
+        return positiveNum;
+    }
+
+
+}
+
+const result8 = onlyPositive([10,40, 50, 100, 120, 290, -10, 20, -20, -23, -34, -56, -21, 22, 45, -76]);
+console.log(result8);
