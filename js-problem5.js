@@ -39,3 +39,19 @@ function isJavaScript(fileName){
 }
 const result1 = isJavaScript("problems.html");
 console.log(result1);
+
+// problem3:::
+
+function mindGame(num){
+if(typeof num !== "number" || num <=0 ){
+    return "please provide a number"
+}
+else{
+    const result4 = (((num*3)+10)/2)-5;
+    return result4;
+}
+
+}
+
+const result3 = mindGame(30);
+console.log(result3);
