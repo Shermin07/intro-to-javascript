@@ -20,3 +20,22 @@ function isInteger(number){
 }
 const result = isInteger(30);
 console.log(result);
+
+// priblem2:::
+
+function isJavaScript(fileName){
+    if( typeof fileName !=="string" ){
+        return "please provide a string";
+    }
+    else{
+        if(fileName.toLowerCase().endsWith(".js")=== true){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+}
+const result1 = isJavaScript("problems.html");
+console.log(result1);
