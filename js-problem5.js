@@ -99,6 +99,7 @@ function findingBadData(x){
             if(x[i] < 0){
                 badData.push(x[i]);
             }
+           
         }
         }
         return badData;
@@ -110,3 +111,28 @@ function findingBadData(x){
 
 const result5 = findingBadData(arr);
 console.log(result5);
+
+// problem6:::::
+
+function gemsToDiamond(num1, num2, num3){
+    if( typeof num1 !== "number" || typeof num2 !== "number"|| typeof num3 !== "number"){
+        return "please provide a number"
+    }
+    else{
+        const firstGemsPower = 21;
+        const secondGemsPower = 32;
+        const thirdGemsPower = 43;
+
+        const totalDiamonds = (firstGemsPower*num1) + (secondGemsPower*num2) + (thirdGemsPower*num3);
+
+        if(totalDiamonds > 1000*2){
+            return totalDiamonds-2000;
+        }
+        else{
+            return totalDiamonds;
+        }
+    }
+
+}
+const result6 = gemsToDiamond(1, 1, 1);
+console.log(result6);
